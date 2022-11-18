@@ -1,7 +1,8 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <!-- <x-jet-authentication-card-logo /> -->
+            <img src="https://images.reactbricks.com/src_set/7e0b433a-f86b-41c8-8a25-28753c44d974-500/dashboard.webp" alt="Rakesh" style="height: 190px; border-radius: 25px;">
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
